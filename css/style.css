@@ -5,6 +5,9 @@
 @media (min-width: 768px) {
   .w-md-auto {
     width: auto !important; } }
+@media (max-width: 768px) {
+  .row {
+    margin: 0; } }
 .slick-next {
   right: 0; }
 

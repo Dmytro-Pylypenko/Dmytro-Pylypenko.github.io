@@ -8,6 +8,11 @@
         width: auto !important;
     }
 }
+@media (max-width: 768px){
+    .row{
+        margin: 0;
+    }
+}
 // bootstrap style end
 
 // style slick slide start
