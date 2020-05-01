@@ -53,7 +53,7 @@ $(function () {
       }
     });
   }else if ($(window).width() > 581){
-    $menu1.addClass('active');
+    // $menu1.addClass('active');
     $menu2.addClass('active');
   }
 
