@@ -36,7 +36,7 @@
                         <li><a href="#">HOSTING</a></li>
                         <li><a href="#">PAGES</a></li>
                         <li><a href="#">BLOG</a></li>
-                        <li><a href="#">CONTACT US</a></li>
+                        <li><a id="contact" href="#footer-form">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -337,23 +337,39 @@
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div class="footer-form">
+                <div class="footer-form" id="footer-form">
                     <div class="footer-title">
                         Quick Contact
                     </div>
-                    <form>
-                        <input type="text" placeholder="Name">
-                        <input type="text" placeholder="Email Address">
-                        <input type="text" placeholder="Subject">
-                        <textarea placeholder="Message"></textarea>
-                        <button type="submit ">Send</button>
+                     <form id="data"  method="post">
+
+                        <input type="text" name="name" id="name" placeholder=" Your name" /><br>
+
+                        <input type="email" name="email" id="email" placeholder=" Your email" /><br>
+                        
+                        <select id="subject" placeholder=" Your subject" name="subject"   required>
+                            <option value="Электроник">Электроник</option>
+                            <option value="Сыроежкин">Сыроежкин</option>
+                            <option value="Чижиков">Чижиков</option>
+                            <option value="Кукушкина">Кукушкина</option>
+                        </select>
+                        <br>
+
+                        <input type="text" name="message" id="message" maxlength="500" placeholder=" Your massage" /><br>
+
+                        <input type="submit" id="btn" value="Отправить" />
                     </form>
+
+                    <br>
+
+                    <div id="result_form"></div>
                 </div>
             </div>
         </div>
 
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/ajax.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
