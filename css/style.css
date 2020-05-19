@@ -62,11 +62,11 @@ a {
   border-radius: 5%; }
 .about__me-text {
   color: #211316;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   margin: 0 auto;
   max-width: 700px;
-  padding-bottom: 115px; }
+  padding-bottom: 115px;}
 
 .skills {
   min-height: 185px; }
@@ -90,7 +90,8 @@ a {
   justify-content: space-between;
   margin: 50px 0; }
   .projects img {
-    margin: 15px auto; }
+    margin: 15px auto;
+  border-radius: 50%; }
 
 .footer {
   background-image: url(../img/footer-bg.jpg);
@@ -104,7 +105,7 @@ a {
       color: #b7ac7f;
       font-size: 20px; }
   .footer__title .contact__email {
-    margin: 0 0 30px -13px; }
+    margin: 0 0 25px -13px; }
   .footer__name h2 {
     padding-top: 50px;
     color: #ffffff; }
