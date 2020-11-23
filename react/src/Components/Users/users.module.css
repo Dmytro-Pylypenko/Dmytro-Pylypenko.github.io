@@ -2,7 +2,10 @@
     width: 100px;
     height: 100px;
 }
-.selectedPage{
-    font-size: large;
+.selectedPage {
     font-weight: bold;
+  
+}
+.selected{
+    cursor: pointer;
 }
