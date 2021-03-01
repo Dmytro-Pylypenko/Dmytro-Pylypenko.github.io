@@ -71,7 +71,35 @@ function scrollFunction() {
 	}
 }
 function topFunction() {
-	
-	$('html, body').animate({scrollTop: 0},1000);
-	
+
+	$('html, body').animate({ scrollTop: 0 }, 1000);
+
 };
+
+const allLang = ['en', 'pl', 'ua'];
+const select = document.querySelector('select');
+select.addEventListener('change', changeURLLanguage);
+
+function changeURLLanguage() {
+	let lang = select.value;
+	location.href = window.location.pathname + "#" + lang;
+	location.reload();
+};
+
+function changeLanguege() {
+	let hash = window.location.hash;
+	hash = hash.substr(1);
+	if (!allLang.includes(hash)) {
+		location.href = window.location.pathname + '#en';
+		location.reload();
+	};
+	select.value = hash;
+	document.querySelector(".lng-title").innerHTML = langArr['lng-title'][hash];
+	for (let key in langArr) {
+		let elem = document.querySelector('.lng-' + key);
+		if (elem) {
+			elem.innerHTML = langArr[key][hash];
+		}
+	};
+};
+changeLanguege();

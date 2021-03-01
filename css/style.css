@@ -54,6 +54,14 @@ a:hover {
   height: 100vh;
   margin-left: 15px;
 }
+.header__content .lng {
+  display: flex;
+  top: 16px;
+  position: fixed;
+  color: wheat;
+  background-color: red;
+  z-index: 5;
+}
 .header__btn a {
   display: inline-block;
   width: 127px;
@@ -323,6 +331,14 @@ a:hover {
   transform: translateY(0px);
   opacity: 1;
   transition-delay: 0.85s;
+}
+@media (max-width: 700px) {
+  .header__content .lng {
+    left: 16px;
+}
+  .footer__name h2 {
+    padding-top: 0;
+  }
 }
 @media (min-width: 667px) {
   .hamburger #nav {
