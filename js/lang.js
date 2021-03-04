@@ -2,12 +2,37 @@ const langArr = {
     "lng-title": {
         "en": "Welcome to my portfolio page",
         "pl": "Witam na mojej stronie portfolio",
-        "ua": "Вітаю, це моя персональна сторінка",
+        "ua": "Привіт, це моя персональна сторінка",
     },
     "btn": {
         "en": "Explorer me...",
         "pl": "Odkrywaj mnie...",
         "ua": "Відкривай...",
+    },
+    "item_1": {
+        "en": "WELCOME",
+        "pl": "WITAM",
+        "ua": "ПРИВІТ",
+    },
+    "item_2": {
+        "en": "About ME",
+        "pl": "O mnie",
+        "ua": "Про мене",
+    },
+    "item_3": {
+        "en": "Skills",
+        "pl": "Umiejętności",
+        "ua": "Навички",
+    },
+    "item_4": {
+        "en": "Projects",
+        "pl": "Projekty",
+        "ua": "Проекти",
+    },
+    "item_5": {
+        "en": "contacts",
+        "pl": "Kontakty",
+        "ua": "Контакти",
     },
     "p": {
         "en": "My name is Dmytro Pylypenko here are my initial projects and this is just the beginning.",
