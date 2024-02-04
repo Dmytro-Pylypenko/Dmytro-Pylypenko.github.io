@@ -35,9 +35,9 @@ const langArr = {
         "ua": "Контакти",
     },
     "p": {
-        "en": "My name is Dmytro Pylypenko here are my initial projects and this is just the beginning.",
-        "pl": "Nazywam się Dmytro Pylypenko i jestem nowy w programowaniu,to moje pierwsze projekty i to dopiero początek.",
-        "ua": "Мене звати Дмитро Пилипенко і це моя сторінка разом з моїми проектами.",
+        "en": "My name is Dmytro Pylypenko, I am a system administrator, here is the information  about me and what I am currently learning.",
+        "pl": "Nazywam się Dmytro Pylypenko, jestem administratorem sieci, tutaj znajdziesz informacje o mnie i tym, czego się aktualnie uczę.",
+        "ua": "Мене звуть Дмитро Пилипенко, я системний адміністратор, ось інформація про мене та те, що я зараз навчаюся.",
     },
     "skills": {
         "en": "My skills",
