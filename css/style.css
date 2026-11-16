@@ -385,4 +385,32 @@ a:hover {
   color: #b7ac7f;
 }
 
+.certificates-items {
+    background-image: url("../img/fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 15px;
+    text-align: left !important;
+}
+.certificates-items h5 {
+    font-weight: 700;
+    margin-top: 10px;
+}
+@media (min-width: 992px) {
+    .certificates-items h5 {
+        font-size: 1.2rem;
+    }
+}
+.certificates-items span {
+    font-size: 1rem;
+}
+.certificates-items .border-secondary {
+    border-bottom-color: rgba(255, 255, 255, 0.15) !important;
+}
+.certificates-items .mx-auto > div:last-child {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
