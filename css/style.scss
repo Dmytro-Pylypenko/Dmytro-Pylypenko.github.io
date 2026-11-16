@@ -383,63 +383,37 @@ a {
     }
 }
 // hamburger finish
-// ==========================================
-// Certificates Section Start
-// ==========================================
-.certificates {
-    min-height: 185px;
 
-    &-items {
-        // Używamy tego samego tła co w sekcji Skills, aby utrzymać spójność
-        background-image: url(../img/fon.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 30px;
-        border-radius: 10px; // Opcjonalnie: lekkie zaokrąglenie rogów
-        
-        // Elementy listy certyfikatów
-        .d-flex {
-            transition: all 0.3s ease;
-            
-            &:hover {
-                background-color: rgba(255, 255, 255, 0.05);
-                border-radius: 5px;
-                padding-left: 10px;
-                padding-right: 10px;
-            }
+// Certificates Section
 
-            h5 {
-                font-weight: 700;
-                font-size: 1.1rem;
-                margin-top: 10px;
-                @media (min-width: 992px) {
-                    font-size: 1.25rem; // Większy tekst na monitorach np. 34-cale
-                }
-            }
+.certificates-items {
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 15px;
+    text-align: left !important; // Wymusza tekst do lewej (nadpisuje body {text-align: center})
 
-            span {
-                font-size: 0.95rem;
-                display: inline-block;
-                margin-bottom: 5px;
-            }
-
-            small {
-                line-height: 1.4;
-                display: inline-block;
-            }
-        }
-        
-        // Customizacja kolorów granic (odpowiada za border-bottom)
-        .border-secondary {
-            border-color: rgba(255, 255, 255, 0.1) !important;
-        }
-        
-        // Ostatni element bez dolnej krawędzi
-        .d-flex:last-child {
-            border-bottom: none !important;
-            margin-bottom: 0 !important;
-            padding-bottom: 0 !important;
+    h5 {
+        font-weight: 700;
+        margin-top: 10px;
+        @media (min-width: 992px) {
+            font-size: 1.2rem; 
         }
     }
+
+    span {
+        font-size: 1rem;
+    }
+
+    // Jasne, półprzezroczyste linie oddzielające
+    .border-secondary {
+        border-bottom-color: rgba(255, 255, 255, 0.15) !important;
+    }
+
+    // Usunięcie linii pod ostatnim elementem (ALX Academy)
+    .mx-auto > div:last-child {
+        border-bottom: none !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
 }
-// Certificates Section End
